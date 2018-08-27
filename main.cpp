@@ -33,18 +33,14 @@ using namespace std;
 int main(){
     
     // Create different cent constant variables
-    long const dollar{100};
-    long const quarter{25};
-    long const dime{10};
-    long const nickel{5};
-    long const penny{1};
+    const long dollar{100}, quarter{25},  dime{10},  nickel{5}, penny{1};
     
     // Ask user an amount in cents and assign it to 'cents'
     cout << "Enter an amount in cents: ";
     long cents;
     cin >> cents;
     
-    // Inform the user how he can provide the change in the different style of cents
+    // Inform the user how he/she can provide the change in the different style of cents
     cout << "You can provide this change as follows: " << endl;
     
     // Dollars
